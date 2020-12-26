@@ -1,6 +1,6 @@
 from django.db import models
 
-# Create your models here.
+# Create your models here
 class allStates(models.Model):
     province = models.CharField(default="NY", max_length=50)
     Update = models.CharField(default="1/1/1970", max_length=50)
